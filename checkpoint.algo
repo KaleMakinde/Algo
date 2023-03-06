@@ -10,8 +10,31 @@ Use three variables as counters.
 
 ALGORITHM Sentece
 VAR
-    length_0f_asentence, nb_words, nb_vowels, nb_characters : INTEGER
-    sum : INTEGER:=0
+   nb_words, nb_vowels, nb_characters := INTEGER:
+
+   sentence:= STRING
+
 BEGIN
-    
+     nb_characters:= 0 ;
+
+  nb_words:= 1 ;
+
+  nb_vowels:= 0;
+
+  write("type the sentence")
+
+  read(sentc)
+
+  REPEAT
+
+
+
+   IF (sentc[nbc]=" ") THEN
+
+       nbw:=nbw+1 ;
+
+   END_IF
+
 END
+
+
